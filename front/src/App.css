@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background-size: cover;
+  background-image: url('./b.jpg');
+} 
+.close{
+  outline-color: none;
+}
+.v{
+  border-radius: 2rem;
+  font-weight: bolder;
+  background-color: rgba(216, 206, 206, 0.568) ;
+}
+.v:hover{
+  background-color: rgba(187, 177, 177, 0.568) ;
+}
+.bg-light{
+  background-color: white !important;
+}
+.nav i{
+  display: block;
+}
+.active{
+  border-bottom:3px solid black ;
+}
+ .nav a{
+  color: black ;
+
+  
+}
+
+.navbar-dark a:hover{
+  color: rgb(226, 220, 220) !important;
+}
+ .navbar-dark a{
+  color: white !important;
+}
+.nav a:hover{
+ color: gray;
+}
+#map {
+  height: 70vh;
+  
+ 
+ 
+}
